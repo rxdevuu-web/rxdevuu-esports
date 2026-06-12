@@ -1,12 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Esports Website</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>eSports Arena</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>Welcome to My Esports Website</h1>
+<!-- HERO SECTION -->
+<section class="hero">
+  <div class="overlay"></div>
+  <div class="content">
+    <h1>Enter the Ultimate eSports Arena</h1>
+    <p>Join tournaments. Compete. Win.</p>
+    <a href="#join" class="btn">Join Now</a>
+  </div>
+</section>
+
+<!-- TOURNAMENTS -->
+<section class="tournaments">
+  <h2>🔥 Tournaments</h2>
+  <div class="cards">
+    <div class="card">BGMI Tournament</div>
+    <div class="card">Free Fire Clash</div>
+    <div class="card">Valorant Cup</div>
+  </div>
+</section>
+
+<!-- JOIN FORM -->
+<section id="join" class="join">
+  <h2>Join Now</h2>
+  <form id="joinForm">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Email" required>
+    <input type="text" placeholder="Game (BGMI/FF/Valorant)" required>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 eSports Arena</p>
+</footer>
 
 <script src="script.js"></script>
 </body>
